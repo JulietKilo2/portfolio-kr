@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+        integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="/style.css">
+    <title>Jisub | Web Dev</title>
+</head>
+
+<body>
+    <a href="#intro" class="scroll-up-btn">맨 위로</a>
+    <section class="intro" id="intro">
+
+        <nav class="menu-container">
+            <!-- <div class="logo">
+                &#60;DevSub/&#62;
+            </div> -->
+            <ul class="menu">
+                <li>
+                    <a href="#about">
+                        소개
+                    </a>
+                </li>
+                <li>
+                    <a href="#projects">
+                        프로젝트
+                    </a>
+                </li>
+                <li>
+                    <a href="#contact">
+                        연락처
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="intro-main-wrapper">
+            <div class="intro-main">
+                <h1 class="intro-header">
+                    김지섭
+                </h1>
+                <p class="intro-text">
+                    멋진 디자인을 편리한 웹 앱으로 구현하고픈 프론트엔드 개발자 입니다.
+                </p>
+                <a class="intro-button" href="#about">
+                    더 알아보기
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-card">
+            <h1 class="about-title">
+                저는 이런 사람입니다.
+            </h1>
+            <p class="about-text">
+                저는 시각적으로 아름다우면서도 편의성 또한 훌륭한 웹 디자인들을 잘 작동하는 앱으로 구현하는 걸 업으로 삼고 싶은 프론트엔드 개발자 입니다.
+                <br>
+                현대적인 프론트엔드 개발을 위한 기본적인 스킬셋을 갖추고 있습니다. 웹페이지 구성의 기초이자 핵심인 HTML5와 CSS3, 그리고 JavaScript을 다룰 수 있으며 또한 더 규모가 큰
+                프로젝트들을 위해 React.js를 시작으로 필요에 따라 여러 라이브러리나 프레임워크 툴 등을 하나하나 습득해나가고 있습니다.
+                <br>
+                이 외에도 PostCSS나 Sass같은 기본적인 뼈대 위에 편리함과 생산성을 끌어올리기 위한 여러가지 추가적인 도구들을 배우고 활용하는데에도 관심이 있습니다.
+                <br>
+                하지만 무엇보다도, 효율적인 협업과 목표달성을 위해 기본적인 Git 및 Github 사용법을 숙지하는 것 외에도 원활한 의사소통을 위해 항상 열린 마음을 가지고 업무에 일할 자신이
+                있습니다.
+                <br>
+            </p>
+            <div class="about-skills">
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <i class="fab fa-sass"></i>
+                <i class="fab fa-git"></i>
+                <i class="fab fa-react"></i>
+            </div>
+        </div>
+        <a class="about-button" href="#projects">
+            제 프로젝트들 봐주세요!
+        </a>
+    </section>
+    <section class="projects" id="projects">
+        <h1 class="projects-title">
+            프로젝트
+        </h1>
+        <div class="projects-contents"></div>
+    </section>
+    <section class="contact" id="contact">
+        <h1>연락바랍니다!</h1>
+        <h3>Let's code together!</h3>
+        <form target="_blank" action="https://formsubmit.co/jisubkim02@gmail.com" method="POST">
+            <label for="name">
+                성함:
+            </label>
+            <input type="text" name="name" required>
+            <label for="email">
+                이메일 주소:
+            </label>
+            <input type="email" name="email" required>
+            <label for="message">
+                하고싶으신 말씀:
+            </label>
+            <textarea name="message" cols="50" rows="5" required></textarea>
+            <button type="submit">
+                보내기!
+            </button>
+        </form>
+    </section>
+    <footer class="footer" id="footer">
+        <h3>
+            또한 저를 여기서 찾을 수 있습니다.
+        </h3>
+        <div class="footer-icons">
+            <span class="footer-icon">
+                <a href="https://github.com/JulietKilo2" target="_blank">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </span>
+            <span class="footer-icon">
+                <a href="https://www.linkedin.com/in/jisub-kim-639686141/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="App.js"></script>
+</body>
+
+</html>
