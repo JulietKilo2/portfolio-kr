@@ -1,66 +1,66 @@
 const data = [
-    // data of portfolio projects
-    // {
-    //     id: null,
-    //     title: "default template",
-    //     desc: "",
-    //     stacks: "",
-    //     imgPath: "",
-    //     githubUrl: "",
-    //     liveUrl: ""
-    // },    
-    {
-        id: 0,
-        title: "Rome Total War unit wiki",
-        desc: "A compact fan-made unit encyclopedia webpage for Total War: Rome Remastered.",
-        stacks: ["html", "css", "javascript", "react"],
-        imgPath: "./pics/rtw-wiki_preview.png",
-        githubUrl: "",
-        liveUrl: "https://rtw-wiki.netlify.app/"
-    },
-    {
-        id: 1,
-        title: "reactive checklist",
-        desc: "A react app that functions as a basic to-do list, utilizing React Hooks.",
-        stacks: ["html", "css", "javascript", "react"],
-        imgPath: "./pics/reactivelist_preview.png",
-        githubUrl: "https://github.com/JulietKilo2/reactive-checklist",
-        url: "https://reactivelist.netlify.app/"
-    },
-    {
-        id: 2,
-        title: "moment",
-        desc: "A dynamic landing page that shows current time, weather conditions based on user's location, randomized background images and quotes drawn from third-party APIs. Inspired by Momentum, a popular Chrome extension.",
-        stacks: ["html", "css", "javascript"],
-        imgPath: "./pics/",
-        githubUrl: "#",
-        url: "https://dynamiclanding.netlify.app/"
-    },
-    {
-        id: 3,
-        title: "minimal pomodoro",
-        desc: "A simplistic and minimalistic pomodoro timer app built with javascript.",
-        stacks: ["html", "css", "javascript"],
-        imgPath: "./pics/minimalpomodoro_preview.png",
-        githubUrl: "https://github.com/JulietKilo2/Minimal-Pomodoro",
-        url: "https://dynamiclanding.https://minimalpomodoro.netlify.app/"
-    },
-    {
-        id: 4,
-        title: "tropicscape",
-        desc: "A mock travel agency webpage that will take you to imaginary tropical adventures.",
-        stacks: ["html", "css", "sass", "javascript"],
-        imgPath: "./pics/tropicscape_preview.png",
-        githubUrl: "https://github.com/JulietKilo2/tropicscape",
-        url: "https://tropicscape.netlify.app/"
-    },
-    // {
-    //     id: 5,
-    //     title: "andrew kim",
-    //     desc: "A Photograph portfolio website of Andrew Kim.",
-    //     stacks: ["html", "css"],
-    //     imgPath: "./pics/andrewkim_preview.png",
-    //     githubUrl: "",
-    //     url: "https://andrewkim.netlify.app/"
-    // },
-]
+  // data of portfolio projects
+  // {
+  //     id: null,
+  //     title: "default template",
+  //     desc: "",
+  //     stacks: "",
+  //     imgPath: "",
+  //     githubUrl: "",
+  //     liveUrl: ""
+  // },
+  {
+    id: 0,
+    title: "토탈워: 로마 유닛 사전",
+    desc: "PC게임 토탈워: 로마의 모든 유닛들을 정리한 웹앱입니다.",
+    stacks: ["html", "css", "javascript", "react"],
+    imgPath: "./pics/rtw-wiki_preview.png",
+    githubUrl: "",
+    liveUrl: "https://rtw-wiki.netlify.app/",
+  },
+  {
+    id: 1,
+    title: "momentwo",
+    desc: "크롬 익스텐션 모멘트의 일부 기능을 구현한 프로젝트 입니다. 사용자 위치에 따라 날씨 정보를 가져와 출력해주며 배경 이미지 또한 서드파티 API를 가져와 꾸몄습니다.",
+    stacks: ["html", "css", "javascript"],
+    imgPath: "./pics/",
+    githubUrl: "#",
+    url: "https://dynamiclanding.netlify.app/",
+  },
+  {
+    id: 2,
+    title: "리액티브 체크리스트",
+    desc: "리액트 훅을 이용한 간단한 체크리스트입니다.",
+    stacks: ["html", "css", "javascript", "react"],
+    imgPath: "./pics/reactivelist_preview.png",
+    githubUrl: "https://github.com/JulietKilo2/reactive-checklist",
+    url: "https://reactivelist.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "minimal pomodoro",
+    desc: "심플하고 간결한 포모도로 타이머 입니다.",
+    stacks: ["html", "css", "javascript"],
+    imgPath: "./pics/minimalpomodoro_preview.png",
+    githubUrl: "https://github.com/JulietKilo2/Minimal-Pomodoro",
+    url: "https://dynamiclanding.https://minimalpomodoro.netlify.app/",
+  },
+  {
+    id: 4,
+    title: "tropicscape",
+    desc: "A mock travel agency webpage that will take you to imaginary tropical adventures.",
+    stacks: ["html", "css", "sass", "javascript"],
+    imgPath: "./pics/tropicscape_preview.png",
+    githubUrl: "https://github.com/JulietKilo2/tropicscape",
+    url: "https://tropicscape.netlify.app/",
+  },
+  // {
+  //     id: 5,
+  //     title: "andrew kim",
+  //     desc: "A Photograph portfolio website of Andrew Kim.",
+  //     stacks: ["html", "css"],
+  //     imgPath: "./pics/andrewkim_preview.png",
+  //     githubUrl: "",
+  //     url: "https://andrewkim.netlify.app/"
+  // },
+];
