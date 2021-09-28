@@ -12,7 +12,7 @@ const data = [
   {
     id: 1,
     title: "momentwo",
-    desc: "크롬 익스텐션 모멘트의 일부 기능을 구현한 프로젝트 입니다. 다양한 외부 API 소스들을 끌어다와 유명 인용구들, 사용자 위치에 따른 날씨정보, 그리고 랜덤한 배경 이미지를 화면에 전달하였습니다. 기존에 바닐라 자바스트립트로 만들었던 프로젝트를 리액트로 새로 재구성하였습니다.",
+    desc: "크롬 익스텐션 모멘트의 일부 기능을 구현한 프로젝트 입니다.<br/> 다양한 외부 API 소스들을 끌어다와 유명 인용구들, 사용자 위치에 따른 날씨정보, 그리고 랜덤한 배경 이미지를 화면에 전달하였습니다.<br/> 기존에 바닐라 자바스트립트로 만들었던 프로젝트를 리액트로 새로 재구성하였습니다.",
     stacks: ["html5", "css3-alt", "js", "react"],
     imgPath: "./pics/dynamicLanding_preview.png",
     githubUrl: "https://github.com/JulietKilo2/moment2.0",
