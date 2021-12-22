@@ -2,12 +2,12 @@ const data = [
   // data of portfolio projects
   {
     id: 0,
-    title: "토탈워: 로마 유닛 사전",
-    desc: "PC게임 토탈워: 로마의 모든 유닛들을 정리한 웹앱입니다.",
+    title: "Rest Countries API",
+    desc: "세계의 여러 나라들에대한 정보를 담고있는 REST Countries API를 사용하여 각 국의 여러 정보들을 보여주는 사이트 입니다.",
     stacks: ["html5", "css3-alt", "js", "react"],
-    imgPath: "./pics/rtw-wiki_preview.png",
-    githubUrl: "https://github.com/JulietKilo2/rtw-wiki",
-    liveUrl: "https://rtw-wiki.netlify.app/",
+    imgPath: "./pics/rest-countries-preview.png",
+    githubUrl: "https://github.com/JulietKilo2/rest-countries",
+    liveUrl: "https://rest-countries-jk.netlify.app/",
   },
   {
     id: 1,
@@ -20,12 +20,12 @@ const data = [
   },
   {
     id: 2,
-    title: "리액티브 체크리스트",
-    desc: "리액트 훅을 이용한 간단한 체크리스트입니다.",
+    title: "토탈워: 로마 유닛 사전",
+    desc: "PC게임 토탈워: 로마의 모든 유닛들을 정리한 웹앱입니다.",
     stacks: ["html5", "css3-alt", "js", "react"],
-    imgPath: "./pics/reactivelist_preview.png",
-    githubUrl: "https://github.com/JulietKilo2/reactive-checklist",
-    liveUrl: "https://reactivelist.netlify.app/",
+    imgPath: "./pics/rtw-wiki_preview.png",
+    githubUrl: "https://github.com/JulietKilo2/rtw-wiki",
+    liveUrl: "https://rtw-wiki.netlify.app/",
   },
   {
     id: 3,
@@ -62,6 +62,15 @@ const data = [
   //     imgPath: "./pics/andrewkim_preview.png",
   //     githubUrl: "",
   //     url: "https://andrewkim.netlify.app/"
+  // },
+  // {
+  //   id: 6,
+  //   title: "리액티브 체크리스트",
+  //   desc: "리액트 훅을 이용한 간단한 체크리스트입니다.",
+  //   stacks: ["html5", "css3-alt", "js", "react"],
+  //   imgPath: "./pics/reactivelist_preview.png",
+  //   githubUrl: "https://github.com/JulietKilo2/reactive-checklist",
+  //   liveUrl: "https://reactivelist.netlify.app/",
   // },
 ];
 
