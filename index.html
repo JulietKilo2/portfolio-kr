@@ -13,118 +13,144 @@
 </head>
 
 <body>
-    <a href="#intro" class="scroll-up-btn">맨 위로</a>
     <section class="intro" id="intro">
-
         <nav class="menu-container">
-            <!-- <div class="logo">
-                &#60;DevSub/&#62;
-            </div> -->
             <ul class="menu">
                 <li>
-                    <a href="#about">
-                        소개
-                    </a>
-                </li>
-                <li>
                     <a href="#projects">
-                        프로젝트
+                        Projects
                     </a>
                 </li>
                 <li>
                     <a href="#contact">
-                        연락처
+                        Contact
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="./resume/김지섭_이력서_2022.pdf">
+                        Resume
                     </a>
                 </li>
             </ul>
         </nav>
-        <div class="intro-main-wrapper">
-            <div class="intro-main">
-                <h1 class="intro-header">
-                    김지섭
-                </h1>
-                <p class="intro-text">
-                    멋진 디자인을 편리한 웹 앱으로 구현하고픈 프론트엔드 개발자 입니다.
+        <div class="hero-wrapper">
+            <div class="hero">
+                <p class="hero-header">
+                    Hello,
                 </p>
-                <a class="intro-button" href="#about">
-                    더 알아보기
-                </a>
+                <p class="hero-text">
+                    프론트엔드 개발자 김지섭입니다.
+                </p>
             </div>
         </div>
     </section>
-    <section class="about" id="about">
-        <div class="about-card">
-            <h1 class="about-title">
-                자기 소개
-            </h1>
-            <p class="about-text">
-                저는 시각적으로 아름다우면서도 편의성 또한 훌륭한 웹 디자인들을 잘 작동하는 앱으로 구현하는 걸 업으로 삼고 싶은 프론트엔드 개발자 입니다.
-                <br>
-                현대적인 프론트엔드 개발을 위한 기본적인 스킬셋을 갖추고 있습니다. 웹페이지 구성의 기초이자 핵심인 HTML5와 CSS3, 그리고 JavaScript을 다룰 수 있으며 또한 더 규모가 큰
-                프로젝트들을 위해 React.js를 시작으로 필요에 따라 여러 라이브러리나 프레임워크 툴 등을 하나하나 습득해나가고 있습니다.
-                <br>
-                이 외에도 PostCSS나 Sass같은 기본적인 뼈대 위에 편리함과 생산성을 끌어올리기 위한 여러가지 추가적인 도구들을 배우고 활용하는데에도 관심이 있습니다.
-                <br>
-                하지만 무엇보다도, 효율적인 협업과 목표달성을 위해 기본적인 Git 및 Github 사용법을 숙지하는 것 외에도 원활한 의사소통을 위해 항상 열린 마음을 가지고 업무에 일할 자신이
-                있습니다.
-                <br>
-            </p>
-            <div class="about-skills">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-js"></i>
-                <i class="fab fa-sass"></i>
-                <i class="fab fa-git"></i>
-                <i class="fab fa-react"></i>
+    <section class="skills">
+        <p class="skills-title">Skills</p>
+        <div class="skills-icons">
+            <div class="skills-icons-item">
+                <img src="./pics/i-js.png" alt="js logo">
+                <p>JavaScript</p>
+            </div>
+            <div class="skills-icons-item">
+                <img src="./pics/i-react.png" alt="react logo">
+                <p>React</p>
+            </div>
+            <div class="skills-icons-item">
+                <img src="./pics/i-html.png" alt="html logo">
+                <p>HTML</p>
+            </div>
+            <div class="skills-icons-item">
+                <img src="./pics/i-css.png" alt="css logo">
+                <p>CSS</p>
             </div>
         </div>
-        <a class="about-button" href="#projects">
-            포트폴리오
-        </a>
     </section>
     <section class="projects" id="projects">
-        <h1 class="projects-title">
-            프로젝트
-        </h1>
-        <div class="projects-contents"></div>
+        <p class="projects-title">
+            Projects
+        </p>
+        <div class="projects-contents">
+            <div class="projects-item">
+                <img class="projects-item-img" src="./pics/flashbook.png" alt="flashbook project">
+                <div class="projects-item-desc">
+                    <p class="projects-item-desc-title">Flashbook</p>
+                    <p class="projects-item-desc-text">Flashbook은 암기학습을 도와주는 교육용 웹앱입니다. 모바일과 PC환경 모두 지원하며 언제 어디서든 손쉽게
+                        사용할수 있습니다.</p>
+                    <div class="projects-item-desc-feats">
+                        <span>React</span>
+                        <span>SASS</span>
+                        <span>로컬스토리지</span>
+                        <span>반응형</span>
+                    </div>
+                    <div class="projects-item-links">
+                        <a target="_blank" href="https://flashbook-jk.netlify.app/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a target="_blank" href="https://github.com/JulietKilo2/flashcard"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-item">
+                <img class="projects-item-img" src="./pics/rest-countries.png" alt="flashbook project">
+                <div class="projects-item-desc">
+                    <p class="projects-item-desc-title">Rest Countries</p>
+                    <p class="projects-item-desc-text">세계 각국의 다양한 정보를 열람할수 있는 웹사이트입니다. Frontend Mentor Challenge의 디자인
+                        가이드라인을
+                        참조하고 Public API인 Rest Countries API를
+                        기반으로 제작하였습니다.</p>
+                    <div class="projects-item-desc-feats">
+                        <span>React</span>
+                        <span>React Router</span>
+                        <span>API</span>
+                        <span>반응형</span>
+                    </div>
+                    <div class="projects-item-links">
+                        <a target="_blank" href="https://rest-countries-jk.netlify.app/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a target="_blank" href="https://github.com/JulietKilo2/rest-countries"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="projects-item">
+                <img class="projects-item-img" src="./pics/rtw-wiki.png" alt="flashbook project">
+                <div class="projects-item-desc">
+                    <p class="projects-item-desc-title">RTW Wiki</p>
+                    <p class="projects-item-desc-text">
+                        PC게임 토탈워: 로마의 유닛들 정보를 보여주는 웹앱입니다. 사용자는 팩션별로 유닛 리스트를 조회하거나 검색을하여 원하는 정보를 찾을 수 있습니다.
+                    </p>
+                    <div class="projects-item-desc-feats">
+                        <span>React</span>
+                        <span>Hook</span>
+                        <span>반응형</span>
+                    </div>
+                    <div class="projects-item-links">
+                        <a target="_blank" href="https://rtw-wiki.netlify.app/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                        <a target="_blank" href="https://github.com/JulietKilo2/rtw-wiki"><i
+                                class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <section class="contact" id="contact">
-        <h1>Let's code together!</h1>
-        <form target="_blank" action="https://formsubmit.co/jisubkim02@gmail.com" method="POST">
-            <label for="name">
-                성함:
-            </label>
-            <input type="text" name="name" required>
-            <label for="email">
-                이메일:
-            </label>
-            <input type="email" name="email" required>
-            <label for="message">
-                메세지:
-            </label>
-            <textarea name="message" cols="50" rows="5" required></textarea>
-            <button type="submit">
-                send
-            </button>
-        </form>
-    </section>
-    <!-- <footer class="footer" id="footer">
-        <h3>
-            깃헙
-        </h3>
-        <div class="footer-icons">
-            <span class="footer-icon">
-                <a href="https://github.com/JulietKilo2" target="_blank">
-                    <i class="fab fa-github-square"></i>
-                </a>
-            </span>
-            <span class="footer-icon">
-                <a href="https://www.linkedin.com/in/jisub-kim-639686141/" target="_blank">
-                    <i class="fab fa-linkedin"></i>
-                </a>
-            </span>
+        <div class="contact-container">
+            <h2>Let's Connect!</h2>
+            <div class="contact-texts">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i>jisubkim02@gmail.com</p>
+                    <a target="_blank" href="./resume/김지섭_이력서_2022.pdf"><i class="far fa-file"></i>이력서</a>
+                </div>
+                <div class="contact-links">
+                    <a target="_blank" href="https://www.linkedin.com/in/jisub-kim-639686141/"><i
+                            class="fab fa-linkedin-in"></i>Linkedin</a>
+                    <br>
+                    <a target="_blank" href="https://github.com/JulietKilo2"><i class="fab fa-github"></i>Github</a>
+                </div>
+            </div>
         </div>
-    </footer> -->
+    </section>
     <script src="App.js"></script>
 </body>
 
