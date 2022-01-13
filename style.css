@@ -306,35 +306,40 @@ Contact section start
 .contact-texts {
   padding: 2rem;
   line-height: 3;
+  font-size: 1.1rem;
 }
 
 .contact-texts p {
-  font-size: 1.05rem;
   margin-top: 10px;
   letter-spacing: 1.5px;
 }
 
 .contact-texts a {
-  font-size: 1.05rem;
   margin-top: 10px;
   letter-spacing: 1.5px;
   text-decoration: underline;
   cursor: pointer;
 }
 
-.contact-texts p i {
-  margin-right: 5px;
+.contact-texts i {
+  margin-right: 10px;
 }
 
 @media screen and (min-width: 768px) {
   .contact h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-align: left;
     padding-left: 32px;
   }
   .contact-container {
     width: 400px;
     font-size: 1.5rem;
+  }
+  .contact-texts {
+    font-size: 1.35rem;
+  }
+  .contact-texts p {
+    font-size: inherit;
   }
 }
 /* 
